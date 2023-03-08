@@ -28,5 +28,6 @@ document.getElementById('button-search').addEventListener('click', function () {
     // set city
     document.getElementById('city').innerText = city;
     loadTemprature(city);
+    searchField.value = '';
 })
 loadTemprature('dhaka');
