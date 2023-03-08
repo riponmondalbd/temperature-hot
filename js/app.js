@@ -1,4 +1,4 @@
-const API_KEY = `b64d9a514406517f99fe5417ef42aa40`;
+const API_KEY = ``;
 
 const loadTemprature = city => {
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`;
